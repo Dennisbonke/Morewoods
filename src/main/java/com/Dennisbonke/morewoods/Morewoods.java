@@ -1,8 +1,10 @@
 package com.Dennisbonke.morewoods;
 
+import com.Dennisbonke.morewoods.proxy.IProxy;
 import com.Dennisbonke.morewoods.reference.Reference;
 import com.Dennisbonke.morewoods.utility.LogHelper;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -12,6 +14,9 @@ public class Morewoods
 {
     @Mod.Instance(Reference.MOD_ID)
     public static Morewoods instance;
+
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit (FMLPreInitializationEvent event)

@@ -1,0 +1,18 @@
+[
+{
+"modid": "morewoods",
+"name": "More Woods",
+"description": "More wood for Minecraft!",
+"version": "1.7.10-0.0.6.0",
+"credits": "Created by Dennisbonke, Thanks to Pahimar for learning me how to mod",
+"logoFile": "",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authors": [ "Dennisbonke"],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+	 "mod_MinecraftForge"
+]
+}
