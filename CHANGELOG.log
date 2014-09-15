@@ -1,3 +1,6 @@
+version 0.0.5.0:
+shortened version number
+
 version 0.00.004.0000:
 +redid build.gradle
 +updated gradle-wrapper.properties
