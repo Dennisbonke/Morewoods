@@ -1,0 +1,10 @@
+version 0.00.001.0000:
+initial dev release
++build.gradle
++gradlew
++gradlew.bat
++gradle-wrapper.jar
++gradle-wrapper.properties
++CHANGELOG.log
++updated README.md
++Morewoods.java
