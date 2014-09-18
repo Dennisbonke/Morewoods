@@ -1,10 +1,17 @@
+version 0.1_alpha_2:
++added ItemMW
++added ModItems
++added ItemMapleLeaf
++updated en_US.lang
++added Maple Leaf texture
+
 version 0.1_alpha_1:
 changed versioning system, again
 +added en_US.lang
 +added more stuff for proxies
 +added credits
 +added a configuration handler
-+added the ingame configuration gui
++added the in-game configuration gui
 
 version 0.0.6.0:
 +added proxies

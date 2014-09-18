@@ -1,6 +1,7 @@
 package com.Dennisbonke.morewoods;
 
 import com.Dennisbonke.morewoods.handler.ConfigurationHandler;
+import com.Dennisbonke.morewoods.init.ModItems;
 import com.Dennisbonke.morewoods.proxy.IProxy;
 import com.Dennisbonke.morewoods.reference.Reference;
 import com.Dennisbonke.morewoods.utility.LogHelper;
@@ -26,6 +27,8 @@ public class Morewoods
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre Initialization Complete!");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
