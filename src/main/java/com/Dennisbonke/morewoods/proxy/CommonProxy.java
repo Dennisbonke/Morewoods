@@ -1,5 +1,5 @@
 package com.Dennisbonke.morewoods.proxy;
 
-public class CommonProxy
+public abstract class CommonProxy implements IProxy
 {
 }

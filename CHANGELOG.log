@@ -1,3 +1,11 @@
+version 0.1_alpha_1:
+changed versioning system, again
++added en_US.lang
++added more stuff for proxies
++added credits
++added a configuration handler
++added the ingame configuration gui
+
 version 0.0.6.0:
 +added proxies
 +added mcmod.info
