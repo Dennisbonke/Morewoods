@@ -6,6 +6,10 @@ version 0.1_alpha_2:
 +added Maple Leaf texture
 +added a lot of textures (thankks to ExtrabiomesXL)
 +added credits
++added BlockFlag
++added BlockMW
++added ModBlocks
++added flag texture
 
 version 0.1_alpha_1:
 changed versioning system, again

@@ -1,6 +1,7 @@
 package com.Dennisbonke.morewoods;
 
 import com.Dennisbonke.morewoods.handler.ConfigurationHandler;
+import com.Dennisbonke.morewoods.init.ModBlocks;
 import com.Dennisbonke.morewoods.init.ModItems;
 import com.Dennisbonke.morewoods.proxy.IProxy;
 import com.Dennisbonke.morewoods.reference.Reference;
@@ -29,6 +30,8 @@ public class Morewoods
         LogHelper.info("Pre Initialization Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
